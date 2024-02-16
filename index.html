@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Product Page - Marmeto Assignment</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="Image-Container">
+            <div id="mainImage" class="display-Image">
+                <img src="https://m.media-amazon.com/images/I/81UWxbqW+yL._SY741_.jpg" alt="">
+            </div>
+            <div id="TH-Images" class="thumbnail-Images">
+                <img src="https://m.media-amazon.com/images/I/81B0FvJoNkL._SY741_.jpg" alt="">
+                <img src="https://m.media-amazon.com/images/I/814xdj8bT5L._SY741_.jpg" alt="">
+                <img src="https://m.media-amazon.com/images/I/814xdj8bT5L._SY741_.jpg" alt="">
+                <img src="https://m.media-amazon.com/images/I/71p9m51QtUL._SY741_.jpg" alt="">
+            </div>
+        </div>
+        <div class="Description-Container">
+            <div class="Description-Sections">
+                <p id="Product-Vendor" class="vendor-header"></p>
+                <h2 id="product-name"></h2>
+            </div>
+            <div class="Description-Sections">
+                <div class="discount">
+                <p id="Compare-Price" class="compare-price"></p>
+                <p id="Percentage-Off" class="percentage-off"></p>
+                </div>
+                <p id="Price" class="price"></p>
+            </div>
+            <div class="Description-Sections">
+                <p id="Color-Selector" class="color-selector">Choose a Color</p>
+                <div id="ColorSelector" class="colors">
+                    </div>
+            </div>
+            <div class="Description-Sections">
+                <p id="Size-Selector" class="size-selector">Choose a Size</p>
+                <div id="SizeSelector" class="sizes">  
+                </div>
+                <div class="selections">
+                <div id="Quantity-Selector" class="quantity-selector">
+                    <button id="decrement" class="buttons">-</button>
+                    <p id="quantity" class="quanity-value"></p>
+                    <button id="increment" class="buttons">+</button>
+                </div>
+                <button id="Add-To-Cart" class="add-to-cart">Add To Cart</button>
+            </div>
+        </div>
+            <div id="Description" class="Description-Sections">
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="ErrorDisplay">
+        <p>No Connection</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
